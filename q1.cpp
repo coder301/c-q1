@@ -87,7 +87,7 @@ void printLevelwise(BinaryTreeNode<int>* root){
         if(front->right){
             cout<<"R:"<<front->right->data<<",";
             cout<<endl;
-            pending.push(front->right);
+            pendingnodes.push(front->right);
         }
         else{
             cout<<"R:-1,";
